@@ -1,5 +1,5 @@
 {% set name = "matplotlive" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/matplotlive-{{ version }}.tar.gz
-  sha256: d23f98c7331d6295dfcec927df5a1a674d94ee81aa48fc81ef80ce75df0f399a
+  sha256: 107eaeda0a9a950b3148c124212ecff895e422b8c8cdf2008d82fcf29f18522c
 
 build:
   noarch: python
